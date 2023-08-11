@@ -1,0 +1,23 @@
+{
+  "name": "shop-uniapp",
+  "version": "1.0.0",
+  "description": "uni-app、ES6、Vue3、Vite、Pinia",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjt1216/shop-uniapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yjt1216/shop-uniapp/issues"
+  },
+  "homepage": "https://github.com/yjt1216/shop-uniapp#readme",
+  "dependencies": {
+    "dayjs": "^1.11.9"
+  }
+}
