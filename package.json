@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/yjt1216/shop-uniapp#readme",
   "dependencies": {
-    "dayjs": "^1.11.9"
+    "dayjs": "^1.11.9",
+    "lodash": "^4.17.21",
+    "pinia-plugin-persist-uni": "^1.2.0"
   }
 }
