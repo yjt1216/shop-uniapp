@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import { baseUrl } from '@/sheep/config'
 	export default {
 		data() {
 			return {
@@ -15,7 +16,7 @@
 			}
 		},
 		onLoad() {
-
+			console.log('当前API：',baseUrl)
 		},
 		methods: {
 

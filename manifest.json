@@ -200,7 +200,8 @@
     "permission": {},
     "requiredPrivateInfos": [
       "chooseAddress"
-    ]
+    ],
+	"libVersion" : "latest"
   },
   "mp-alipay": {
     "usingComponents": true
