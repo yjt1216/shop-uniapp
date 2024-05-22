@@ -8,7 +8,8 @@
 </template>
 
 <script>
-import { baseUrl } from '@/sheep/config'
+	import { baseUrl } from '@/sheep/config';
+	import { onLoad, onPageScroll, onPullDownRefresh } from '@dcloudio/uni-app'
 	export default {
 		data() {
 			return {
@@ -18,8 +19,11 @@ import { baseUrl } from '@/sheep/config'
 		onLoad() {
 			console.log('当前API：',baseUrl)
 		},
-		methods: {
-
+		onPageScroll() {
+			
+		},
+		onPullDownRefresh: async () => {
+			
 		}
 	}
 </script>
